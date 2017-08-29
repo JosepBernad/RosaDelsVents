@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE32BDD11F559FE4000FC497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32BDD01F559FE4000FC497 /* AppDelegate.swift */; };
+		FE32BDD31F559FE4000FC497 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32BDD21F559FE4000FC497 /* ViewController.swift */; };
+		FE32BDD61F559FE4000FC497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE32BDD41F559FE4000FC497 /* Main.storyboard */; };
+		FE32BDD91F559FE4000FC497 /* RosaDelsVents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE32BDD71F559FE4000FC497 /* RosaDelsVents.xcdatamodeld */; };
+		FE32BDDB1F559FE4000FC497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE32BDDA1F559FE4000FC497 /* Assets.xcassets */; };
+		FE32BDDE1F559FE4000FC497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE32BDDC1F559FE4000FC497 /* LaunchScreen.storyboard */; };
+		FE32BDE91F559FE4000FC497 /* RosaDelsVentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32BDE81F559FE4000FC497 /* RosaDelsVentsTests.swift */; };
+		FE32BDF41F559FE5000FC497 /* RosaDelsVentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32BDF31F559FE5000FC497 /* RosaDelsVentsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE32BDE51F559FE4000FC497 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE32BDC51F559FE4000FC497 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE32BDCC1F559FE4000FC497;
+			remoteInfo = RosaDelsVents;
+		};
+		FE32BDF01F559FE5000FC497 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE32BDC51F559FE4000FC497 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE32BDCC1F559FE4000FC497;
+			remoteInfo = RosaDelsVents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE32BDCD1F559FE4000FC497 /* RosaDelsVents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RosaDelsVents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE32BDD01F559FE4000FC497 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE32BDD21F559FE4000FC497 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE32BDD51F559FE4000FC497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE32BDD81F559FE4000FC497 /* RosaDelsVents.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RosaDelsVents.xcdatamodel; sourceTree = "<group>"; };
+		FE32BDDA1F559FE4000FC497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE32BDDD1F559FE4000FC497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE32BDDF1F559FE4000FC497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE32BDE41F559FE4000FC497 /* RosaDelsVentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RosaDelsVentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE32BDE81F559FE4000FC497 /* RosaDelsVentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosaDelsVentsTests.swift; sourceTree = "<group>"; };
+		FE32BDEA1F559FE4000FC497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE32BDEF1F559FE5000FC497 /* RosaDelsVentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RosaDelsVentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE32BDF31F559FE5000FC497 /* RosaDelsVentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosaDelsVentsUITests.swift; sourceTree = "<group>"; };
+		FE32BDF51F559FE5000FC497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE32BDCA1F559FE4000FC497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE32BDE11F559FE4000FC497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE32BDEC1F559FE5000FC497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE32BDC41F559FE4000FC497 = {
+			isa = PBXGroup;
+			children = (
+				FE32BDCF1F559FE4000FC497 /* RosaDelsVents */,
+				FE32BDE71F559FE4000FC497 /* RosaDelsVentsTests */,
+				FE32BDF21F559FE5000FC497 /* RosaDelsVentsUITests */,
+				FE32BDCE1F559FE4000FC497 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE32BDCE1F559FE4000FC497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE32BDCD1F559FE4000FC497 /* RosaDelsVents.app */,
+				FE32BDE41F559FE4000FC497 /* RosaDelsVentsTests.xctest */,
+				FE32BDEF1F559FE5000FC497 /* RosaDelsVentsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE32BDCF1F559FE4000FC497 /* RosaDelsVents */ = {
+			isa = PBXGroup;
+			children = (
+				FE32BDD01F559FE4000FC497 /* AppDelegate.swift */,
+				FE32BDD21F559FE4000FC497 /* ViewController.swift */,
+				FE32BDD41F559FE4000FC497 /* Main.storyboard */,
+				FE32BDDA1F559FE4000FC497 /* Assets.xcassets */,
+				FE32BDDC1F559FE4000FC497 /* LaunchScreen.storyboard */,
+				FE32BDDF1F559FE4000FC497 /* Info.plist */,
+				FE32BDD71F559FE4000FC497 /* RosaDelsVents.xcdatamodeld */,
+			);
+			path = RosaDelsVents;
+			sourceTree = "<group>";
+		};
+		FE32BDE71F559FE4000FC497 /* RosaDelsVentsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE32BDE81F559FE4000FC497 /* RosaDelsVentsTests.swift */,
+				FE32BDEA1F559FE4000FC497 /* Info.plist */,
+			);
+			path = RosaDelsVentsTests;
+			sourceTree = "<group>";
+		};
+		FE32BDF21F559FE5000FC497 /* RosaDelsVentsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE32BDF31F559FE5000FC497 /* RosaDelsVentsUITests.swift */,
+				FE32BDF51F559FE5000FC497 /* Info.plist */,
+			);
+			path = RosaDelsVentsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE32BDCC1F559FE4000FC497 /* RosaDelsVents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE32BDF81F559FE5000FC497 /* Build configuration list for PBXNativeTarget "RosaDelsVents" */;
+			buildPhases = (
+				FE32BDC91F559FE4000FC497 /* Sources */,
+				FE32BDCA1F559FE4000FC497 /* Frameworks */,
+				FE32BDCB1F559FE4000FC497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RosaDelsVents;
+			productName = RosaDelsVents;
+			productReference = FE32BDCD1F559FE4000FC497 /* RosaDelsVents.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE32BDE31F559FE4000FC497 /* RosaDelsVentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE32BDFB1F559FE5000FC497 /* Build configuration list for PBXNativeTarget "RosaDelsVentsTests" */;
+			buildPhases = (
+				FE32BDE01F559FE4000FC497 /* Sources */,
+				FE32BDE11F559FE4000FC497 /* Frameworks */,
+				FE32BDE21F559FE4000FC497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE32BDE61F559FE4000FC497 /* PBXTargetDependency */,
+			);
+			name = RosaDelsVentsTests;
+			productName = RosaDelsVentsTests;
+			productReference = FE32BDE41F559FE4000FC497 /* RosaDelsVentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE32BDEE1F559FE5000FC497 /* RosaDelsVentsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE32BDFE1F559FE5000FC497 /* Build configuration list for PBXNativeTarget "RosaDelsVentsUITests" */;
+			buildPhases = (
+				FE32BDEB1F559FE5000FC497 /* Sources */,
+				FE32BDEC1F559FE5000FC497 /* Frameworks */,
+				FE32BDED1F559FE5000FC497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE32BDF11F559FE5000FC497 /* PBXTargetDependency */,
+			);
+			name = RosaDelsVentsUITests;
+			productName = RosaDelsVentsUITests;
+			productReference = FE32BDEF1F559FE5000FC497 /* RosaDelsVentsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE32BDC51F559FE4000FC497 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Sigmund Freud";
+				TargetAttributes = {
+					FE32BDCC1F559FE4000FC497 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					FE32BDE31F559FE4000FC497 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE32BDCC1F559FE4000FC497;
+					};
+					FE32BDEE1F559FE5000FC497 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE32BDCC1F559FE4000FC497;
+					};
+				};
+			};
+			buildConfigurationList = FE32BDC81F559FE4000FC497 /* Build configuration list for PBXProject "RosaDelsVents" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE32BDC41F559FE4000FC497;
+			productRefGroup = FE32BDCE1F559FE4000FC497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE32BDCC1F559FE4000FC497 /* RosaDelsVents */,
+				FE32BDE31F559FE4000FC497 /* RosaDelsVentsTests */,
+				FE32BDEE1F559FE5000FC497 /* RosaDelsVentsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE32BDCB1F559FE4000FC497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE32BDDE1F559FE4000FC497 /* LaunchScreen.storyboard in Resources */,
+				FE32BDDB1F559FE4000FC497 /* Assets.xcassets in Resources */,
+				FE32BDD61F559FE4000FC497 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE32BDE21F559FE4000FC497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE32BDED1F559FE5000FC497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE32BDC91F559FE4000FC497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE32BDD91F559FE4000FC497 /* RosaDelsVents.xcdatamodeld in Sources */,
+				FE32BDD31F559FE4000FC497 /* ViewController.swift in Sources */,
+				FE32BDD11F559FE4000FC497 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE32BDE01F559FE4000FC497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE32BDE91F559FE4000FC497 /* RosaDelsVentsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE32BDEB1F559FE5000FC497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE32BDF41F559FE5000FC497 /* RosaDelsVentsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE32BDE61F559FE4000FC497 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE32BDCC1F559FE4000FC497 /* RosaDelsVents */;
+			targetProxy = FE32BDE51F559FE4000FC497 /* PBXContainerItemProxy */;
+		};
+		FE32BDF11F559FE5000FC497 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE32BDCC1F559FE4000FC497 /* RosaDelsVents */;
+			targetProxy = FE32BDF01F559FE5000FC497 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE32BDD41F559FE4000FC497 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE32BDD51F559FE4000FC497 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE32BDDC1F559FE4000FC497 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE32BDDD1F559FE4000FC497 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE32BDF61F559FE5000FC497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE32BDF71F559FE5000FC497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE32BDF91F559FE5000FC497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8S9BJAE5L;
+				INFOPLIST_FILE = RosaDelsVents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josepbernad.RosaDelsVents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE32BDFA1F559FE5000FC497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8S9BJAE5L;
+				INFOPLIST_FILE = RosaDelsVents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josepbernad.RosaDelsVents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE32BDFC1F559FE5000FC497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8S9BJAE5L;
+				INFOPLIST_FILE = RosaDelsVentsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josepbernad.RosaDelsVentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RosaDelsVents.app/RosaDelsVents";
+			};
+			name = Debug;
+		};
+		FE32BDFD1F559FE5000FC497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8S9BJAE5L;
+				INFOPLIST_FILE = RosaDelsVentsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josepbernad.RosaDelsVentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RosaDelsVents.app/RosaDelsVents";
+			};
+			name = Release;
+		};
+		FE32BDFF1F559FE5000FC497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8S9BJAE5L;
+				INFOPLIST_FILE = RosaDelsVentsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josepbernad.RosaDelsVentsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RosaDelsVents;
+			};
+			name = Debug;
+		};
+		FE32BE001F559FE5000FC497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8S9BJAE5L;
+				INFOPLIST_FILE = RosaDelsVentsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josepbernad.RosaDelsVentsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RosaDelsVents;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE32BDC81F559FE4000FC497 /* Build configuration list for PBXProject "RosaDelsVents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE32BDF61F559FE5000FC497 /* Debug */,
+				FE32BDF71F559FE5000FC497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE32BDF81F559FE5000FC497 /* Build configuration list for PBXNativeTarget "RosaDelsVents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE32BDF91F559FE5000FC497 /* Debug */,
+				FE32BDFA1F559FE5000FC497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE32BDFB1F559FE5000FC497 /* Build configuration list for PBXNativeTarget "RosaDelsVentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE32BDFC1F559FE5000FC497 /* Debug */,
+				FE32BDFD1F559FE5000FC497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE32BDFE1F559FE5000FC497 /* Build configuration list for PBXNativeTarget "RosaDelsVentsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE32BDFF1F559FE5000FC497 /* Debug */,
+				FE32BE001F559FE5000FC497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FE32BDD71F559FE4000FC497 /* RosaDelsVents.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FE32BDD81F559FE4000FC497 /* RosaDelsVents.xcdatamodel */,
+			);
+			currentVersion = FE32BDD81F559FE4000FC497 /* RosaDelsVents.xcdatamodel */;
+			path = RosaDelsVents.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FE32BDC51F559FE4000FC497 /* Project object */;
+}
