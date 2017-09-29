@@ -15,7 +15,9 @@ class Level1ViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-
-
-
+    
+    override func viewWillAppear(_ animated: Bool) {
+        navigationItem.title = "Level 1"
+    }
+    
 }
