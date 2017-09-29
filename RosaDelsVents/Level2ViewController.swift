@@ -28,6 +28,7 @@ class Level2ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        clearPoints()
         askQuestion(nonN: -1)
     }
     
@@ -46,21 +47,21 @@ class Level2ViewController: UIViewController {
         
         switch currentAnswer.getNumber() {
         case 0:
-            point0.alpha = 1.0
+            point0.isHidden = false
         case 1:
-            point1.alpha = 1.0
+            point1.isHidden = false
         case 2:
-            point2.alpha = 1.0
+            point2.isHidden = false
         case 3:
-            point3.alpha = 1.0
+            point3.isHidden = false
         case 4:
-            point4.alpha = 1.0
+            point4.isHidden = false
         case 5:
-            point5.alpha = 1.0
+            point5.isHidden = false
         case 6:
-            point6.alpha = 1.0
+            point6.isHidden = false
         case 7:
-            point7.alpha = 1.0
+            point7.isHidden = false
         default:
             break
             
@@ -69,14 +70,14 @@ class Level2ViewController: UIViewController {
     }
     
     private func clearPoints() {
-        point0.alpha = 0.0
-        point1.alpha = 0.0
-        point2.alpha = 0.0
-        point3.alpha = 0.0
-        point4.alpha = 0.0
-        point5.alpha = 0.0
-        point6.alpha = 0.0
-        point7.alpha = 0.0
+        point0.isHidden = true
+        point1.isHidden = true
+        point2.isHidden = true
+        point3.isHidden = true
+        point4.isHidden = true
+        point5.isHidden = true
+        point6.isHidden = true
+        point7.isHidden = true
     }
     
     @IBAction func answerButtonPressed(_ sender: Any) {
