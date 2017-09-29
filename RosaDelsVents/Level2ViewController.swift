@@ -12,7 +12,6 @@ class Level2ViewController: UIViewController {
 
     private let questionProvider: QuestionProvider = QuestionProvider.init()
     private var currentAnswer: Answer = Answer()
-    private var previousN: Int = -1
     
     @IBOutlet weak var point0: UIImageView!
     @IBOutlet weak var point1: UIImageView!
