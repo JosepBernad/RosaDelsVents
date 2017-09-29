@@ -18,6 +18,8 @@
 		FE32BE021F55A561000FC497 /* Level1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32BE011F55A561000FC497 /* Level1ViewController.swift */; };
 		FE32BE041F55A57D000FC497 /* Level2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32BE031F55A57D000FC497 /* Level2ViewController.swift */; };
 		FE32BE061F55A587000FC497 /* Level3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32BE051F55A587000FC497 /* Level3ViewController.swift */; };
+		FEF06B831F7EB8EF00717C66 /* QuestionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF06B821F7EB8EF00717C66 /* QuestionProvider.swift */; };
+		FEF06B851F7EB9B100717C66 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF06B841F7EB9B100717C66 /* Answer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		FE32BE011F55A561000FC497 /* Level1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1ViewController.swift; sourceTree = "<group>"; };
 		FE32BE031F55A57D000FC497 /* Level2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2ViewController.swift; sourceTree = "<group>"; };
 		FE32BE051F55A587000FC497 /* Level3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3ViewController.swift; sourceTree = "<group>"; };
+		FEF06B821F7EB8EF00717C66 /* QuestionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionProvider.swift; sourceTree = "<group>"; };
+		FEF06B841F7EB9B100717C66 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 				FE32BE011F55A561000FC497 /* Level1ViewController.swift */,
 				FE32BE031F55A57D000FC497 /* Level2ViewController.swift */,
 				FE32BE051F55A587000FC497 /* Level3ViewController.swift */,
+				FEF06B821F7EB8EF00717C66 /* QuestionProvider.swift */,
+				FEF06B841F7EB9B100717C66 /* Answer.swift */,
 				FE32BDD41F559FE4000FC497 /* Main.storyboard */,
 				FE32BDDA1F559FE4000FC497 /* Assets.xcassets */,
 				FE32BDDC1F559FE4000FC497 /* LaunchScreen.storyboard */,
@@ -277,6 +283,8 @@
 				FE32BE061F55A587000FC497 /* Level3ViewController.swift in Sources */,
 				FE32BDD11F559FE4000FC497 /* AppDelegate.swift in Sources */,
 				FE32BE041F55A57D000FC497 /* Level2ViewController.swift in Sources */,
+				FEF06B831F7EB8EF00717C66 /* QuestionProvider.swift in Sources */,
+				FEF06B851F7EB9B100717C66 /* Answer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
