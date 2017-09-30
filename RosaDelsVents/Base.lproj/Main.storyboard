@@ -346,41 +346,59 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rose" translatesAutoresizingMaskIntoConstraints="NO" id="twc-ZL-Xev">
-                                <rect key="frame" x="0.0" y="94" width="768" height="670"/>
+                                <rect key="frame" x="0.0" y="94" width="768" height="550"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="670" id="YjC-xs-DIX"/>
+                                    <constraint firstAttribute="height" constant="550" id="YjC-xs-DIX"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" tag="10" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="point" translatesAutoresizingMaskIntoConstraints="NO" id="cb0-z7-kFG" userLabel="0">
+                                <rect key="frame" x="382" y="102" width="19" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" tag="11" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="point" translatesAutoresizingMaskIntoConstraints="NO" id="tLW-hW-GtD" userLabel="1">
-                                <rect key="frame" x="593" y="211" width="19" height="19"/>
+                                <rect key="frame" x="563" y="184" width="19" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" tag="12" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="point" translatesAutoresizingMaskIntoConstraints="NO" id="pwS-p9-xbc" userLabel="2">
-                                <rect key="frame" x="686" y="420" width="19" height="19"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" tag="13" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="point" translatesAutoresizingMaskIntoConstraints="NO" id="dHH-Fs-sDv" userLabel="3">
-                                <rect key="frame" x="596" y="628" width="19" height="19"/>
+                                <rect key="frame" x="640" y="360" width="19" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" tag="14" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="point" translatesAutoresizingMaskIntoConstraints="NO" id="xGd-mg-3F6" userLabel="4">
-                                <rect key="frame" x="382" y="711" width="19" height="19"/>
+                                <rect key="frame" x="382" y="605" width="19" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" tag="15" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="point" translatesAutoresizingMaskIntoConstraints="NO" id="dBJ-3b-0HT" userLabel="5">
-                                <rect key="frame" x="175" y="631" width="19" height="19"/>
+                                <rect key="frame" x="203" y="536" width="19" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" tag="16" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="point" translatesAutoresizingMaskIntoConstraints="NO" id="V7G-NI-lap" userLabel="6">
-                                <rect key="frame" x="80" y="420" width="19" height="19"/>
+                                <rect key="frame" x="131" y="360" width="19" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" tag="17" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="point" translatesAutoresizingMaskIntoConstraints="NO" id="rRW-UK-S86" userLabel="7">
-                                <rect key="frame" x="175" y="208" width="19" height="19"/>
+                                <rect key="frame" x="217" y="184" width="19" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" tag="10" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="point" translatesAutoresizingMaskIntoConstraints="NO" id="cb0-z7-kFG" userLabel="0">
-                                <rect key="frame" x="382" y="124" width="19" height="19"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PfV-Tr-7tz">
+                                <rect key="frame" x="540" y="652" width="99" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                                <connections>
+                                    <action selector="submitButtonPressed:" destination="SBa-vm-qvj" eventType="touchUpInside" id="ACK-MK-pYq"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="os0-bA-vDa">
+                                <rect key="frame" x="125" y="652" width="249" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES" textContentType="name"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" tag="13" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="point" translatesAutoresizingMaskIntoConstraints="NO" id="dHH-Fs-sDv" userLabel="3">
+                                <rect key="frame" x="563" y="541" width="19" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -392,10 +410,21 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ebu-T6-sQV"/>
                     </view>
+                    <connections>
+                        <outlet property="answerTextLabel" destination="os0-bA-vDa" id="Sg2-U3-kDu"/>
+                        <outlet property="point0" destination="cb0-z7-kFG" id="9mJ-W0-g8w"/>
+                        <outlet property="point1" destination="tLW-hW-GtD" id="tqR-36-m4z"/>
+                        <outlet property="point2" destination="pwS-p9-xbc" id="hxY-kn-FjU"/>
+                        <outlet property="point3" destination="dHH-Fs-sDv" id="b2Y-Yv-puH"/>
+                        <outlet property="point4" destination="xGd-mg-3F6" id="OVh-EQ-WXF"/>
+                        <outlet property="point5" destination="dBJ-3b-0HT" id="4KF-h2-Hfy"/>
+                        <outlet property="point6" destination="V7G-NI-lap" id="HAo-5z-MvC"/>
+                        <outlet property="point7" destination="rRW-UK-S86" id="asV-18-Tli"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qyB-XE-LdN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1084" y="1000"/>
+            <point key="canvasLocation" x="1083.59375" y="999.60937499999989"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="1sJ-Fn-rTy">
