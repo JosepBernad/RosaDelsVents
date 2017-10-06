@@ -87,58 +87,66 @@
                                     <constraint firstAttribute="height" constant="550" id="G6w-ik-eK8"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Sm-u6-XT3" userLabel="0">
-                                <rect key="frame" x="299" y="202" width="189" height="109"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Sm-u6-XT3" userLabel="0">
+                                <rect key="frame" x="365" y="224" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="point"/>
                                 <connections>
                                     <action selector="answerButtonPressed:" destination="JtI-wL-VPO" eventType="touchUpInside" id="tyv-sb-jtU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hq2-jy-xY6" userLabel="1">
-                                <rect key="frame" x="536" y="202" width="220" height="175"/>
+                            <button opaque="NO" tag="1" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hq2-jy-xY6" userLabel="1">
+                                <rect key="frame" x="553" y="328" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="point"/>
                                 <connections>
                                     <action selector="answerButtonPressed:" destination="JtI-wL-VPO" eventType="touchUpInside" id="QvI-8t-XdO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sug-hF-Les" userLabel="2">
-                                <rect key="frame" x="611" y="417" width="157" height="187"/>
+                            <button opaque="NO" tag="2" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sug-hF-Les" userLabel="2">
+                                <rect key="frame" x="627" y="484" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="point"/>
                                 <connections>
                                     <action selector="answerButtonPressed:" destination="JtI-wL-VPO" eventType="touchUpInside" id="8I2-9O-3qZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Boi-Bj-8bv" userLabel="3">
-                                <rect key="frame" x="536" y="652" width="220" height="211"/>
+                            <button opaque="NO" tag="3" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Boi-Bj-8bv" userLabel="3">
+                                <rect key="frame" x="553" y="671" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="point"/>
                                 <connections>
                                     <action selector="answerButtonPressed:" destination="JtI-wL-VPO" eventType="touchUpInside" id="GJQ-2o-NoN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGg-pF-PKF" userLabel="4">
-                                <rect key="frame" x="293" y="710" width="195" height="186"/>
+                            <button opaque="NO" tag="4" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGg-pF-PKF" userLabel="4">
+                                <rect key="frame" x="365" y="750" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="point"/>
                                 <connections>
                                     <action selector="answerButtonPressed:" destination="JtI-wL-VPO" eventType="touchUpInside" id="pjR-G8-rrK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pG-Rx-bFE" userLabel="5">
-                                <rect key="frame" x="20" y="652" width="228" height="235"/>
+                            <button opaque="NO" tag="5" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pG-Rx-bFE" userLabel="5">
+                                <rect key="frame" x="208" y="671" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="point"/>
                                 <connections>
                                     <action selector="answerButtonPressed:" destination="JtI-wL-VPO" eventType="touchUpInside" id="53G-qs-2OH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRT-c8-3BT" userLabel="6">
-                                <rect key="frame" x="20" y="417" width="168" height="191"/>
+                            <button opaque="NO" tag="6" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRT-c8-3BT" userLabel="6">
+                                <rect key="frame" x="105" y="484" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="point"/>
                                 <connections>
                                     <action selector="answerButtonPressed:" destination="JtI-wL-VPO" eventType="touchUpInside" id="Lx3-NJ-3Ps"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5aR-It-UzE" userLabel="7">
-                                <rect key="frame" x="35" y="210" width="223" height="167"/>
+                            <button opaque="NO" tag="7" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5aR-It-UzE" userLabel="7">
+                                <rect key="frame" x="208" y="328" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="point"/>
                                 <connections>
                                     <action selector="answerButtonPressed:" destination="JtI-wL-VPO" eventType="touchUpInside" id="6Hz-Te-Qa0"/>
                                 </connections>
